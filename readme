@@ -5,3 +5,11 @@ This worker demonstrates how to produce messages to a Cloudflare Queue.
 For detailed instructions and documentation, please visit:
 
 https://developers.cloudflare.com/queues/get-started/
+
+## Quick Start
+
+In short, this Producer worker receives incoming messages/events and puts them in a queue. You can perform any necessary actions on the message before sending it to the queue.
+
+1.  Create a queue using the Cloudflare CLI or dashboard.
+2.  Add queue bindings in `wrangler.json` and configure `index.ts`.
+3.  Create a producer worker and bind it to the queue. This worker will process the received message batches.

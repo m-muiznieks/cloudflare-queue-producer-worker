@@ -14,6 +14,7 @@
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
 
+		// if the request is a POST request, if messages is sent over https or fetched with worker bindings
 		if(request.method === "POST"){
 			
 			const data = {
