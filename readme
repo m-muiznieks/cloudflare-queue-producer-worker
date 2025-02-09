@@ -1,0 +1,7 @@
+# Cloudflare Queue Producer Worker
+
+This worker demonstrates how to produce messages to a Cloudflare Queue.
+
+For detailed instructions and documentation, please visit:
+
+https://developers.cloudflare.com/queues/get-started/
